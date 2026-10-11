@@ -13,7 +13,7 @@
 
 #define _EMA_ALPHA 0.5    
 
-#define N 30
+#define N 30   // N = 3, 10, 30 설정
 
 unsigned long last_sampling_time;   
 float dist_ema;                     
