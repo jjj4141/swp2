@@ -15,7 +15,7 @@
 
 // Servo adjustment (실습 3에서 찾은 값)
 #define _DUTY_MAX 2030
-#define _DUTY_NEU 1270
+#define _DUTY_NEU 1230
 #define _DUTY_MIN 550
 
 #define _SERVO_ANGLE_DIFF  122  // |D - E| degree
