@@ -11,7 +11,7 @@
 #define _INTERVAL_SERIAL  100 // serial interval (unit: ms)
 
 // EMA filter configuration for the IR distance sensor
-#define _EMA_ALPHA 0.30    // EMA weight of new sample (range: 0 to 1)
+#define _EMA_ALPHA 0.8    // EMA weight of new sample (range: 0 to 1)
 
 // Servo adjustment (실습 3에서 찾은 값)
 #define _DUTY_MAX 2030
@@ -28,7 +28,7 @@
 #define _DIST_OFFSET    15.0
 
 // PID parameters
-#define _KP  2.0    // proportional gain (실험하며 조정)
+#define _KP  2.2    // proportional gain (실험하며 조정)
 //#define _KD 0.0
 //#define _KI 0.0
 
